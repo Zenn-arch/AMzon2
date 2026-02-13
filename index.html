@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+    <header class="navbar">
+        <div class="logo">amazon</div>
+
+
+        <div class="search-box">
+            <input type="text" placeholder="Search Amazon">
+            <button>Search</button>
+        </div>
+
+
+        <div class="nav-links">
+            <div onclick="signIn()">
+                <span>Hello, Sign in</span>
+                <p>Account & Lists</p>
+            </div>
+
+
+            <div onclick="returns()">
+                <span>Returns</span>
+                <p>& Orders</p>
+            </div>
+            <div class="cart" onclick="openCart()">CART </span><strong>(0)</strong>
+            </div>
+            <script>
+
+            </script>
+    </header>
+    <script>
+        function signIn() {
+            window.open("https://www.amazon.com/gp/css/order-history", "_blank");
+        }
+
+    </script>
+
+
+
+    <nav class="menu">
+        <a href="#" onclick="openAll()">☰ All</a>
+        <a href="#" onclick="openDeals()">Today's Deals</a>
+        <a href="#" onclick="openService()">Customer Service</a>
+        <a href="#" onclick="openRegistry()">Registry</a>
+        <a href="#" onclick="openGiftCards()">Gift Cards</a>
+        <a href="#" onclick="openSell()">Sell</a>
+    </nav>
+    <script>
+        function openAll() {
+            window.open("javascript: void(0)", "_blank");
+        }
+
+
+        function openDeals() {
+            window.open("https://www.amazon.com/deals?ref_=nav_cs_gb", "_blank");
+        }
+
+    </script>
+
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>SHOP NOW HERE</h1>
+            <p>Big Deals Are Here</p>
+        </div>
+    </section>
+
+
+
+    <section class="products">
+
+
+
+
+        <div class="product-card">
+            <h3>Electronics</h3>
+            <img src="elce.PNG">
+            <a href="#">Shop now</a>
+        </div>
+
+
+
+
+        <div class="product-card">
+            <h3>Fashion</h3>
+            <img src="fa.PNG">
+            <a href="#">Shop now</a>
+        </div>
+
+
+
+
+        <div class="product-card">
+            <h3>Home & Kitchen</h3>
+            <img src="kit.PNG">
+            <a href="#">Shop now</a>
+        </div>
+
+
+
+
+        <div class="product-card">
+            <h3>Gaming</h3>
+            <img src="ga.PNG">
+            <a href="#">Shop now</a>
+        </div>
+
+
+
+
+    </section>
+
+
+
+    <footer class="footer">
+        <p>For School Purposes</p>
+    </footer>
+
+
+</body>
+
+</html>
